@@ -5,8 +5,8 @@ def digit_sum(n):
     return 0
 
 def run():
-  x = int(input("Enter an int: "))
-  print(f"sum of digits {x} is {digit_sum(x)}.")
+  N = int(input("Enter an int: "))
+  print(f"sum of digits {N} is {digit_sum(N)}.")
 
 if __name__ == "__main__":
   run()
